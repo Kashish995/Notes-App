@@ -1,0 +1,39 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  align-items: center;
+  height: 43px;
+}
+
+nav ul li{
+  list-style-type: none;
+}
+
+nav ul{
+  display: flex;
+  gap: 23px;
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label{
+  display: block;
+
+}
+
+form, h1, h2{
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 30vw;
+  height: 24px;
+}
+textarea{
+  width: 30vw;
+  height: 122px;
+}
